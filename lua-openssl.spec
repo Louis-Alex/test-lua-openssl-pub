@@ -25,6 +25,6 @@ pwd
 ls -lah
 
 %files
-/usr/local/lib64/lua/5.1/openssl.so
-/usr/local/lib64/lua/5.1/openssl.so.1
-/usr/local/lib64/lua/5.1/openssl.so.0.7.8.0
+/usr/local/lib/lua/5.1/openssl.so
+/usr/local/lib/lua/5.1/openssl.so.1
+/usr/local/lib/lua/5.1/openssl.so.0.7.8.0
