@@ -19,7 +19,7 @@ Openssl module for luajit
 cmake3 -Bbuild -H. -DOPENSSL_ROOT_DIR=/usr/lib64/ && cd build && make
 
 %install
-cd build && make install
+cd build && make DESTDIR="/usr/local/lib/lua/5.1/" install
 ls -lah %{buildroot}
 pwd
 ls -lah
